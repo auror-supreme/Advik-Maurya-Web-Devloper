@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advik MAurya | Web Developer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      animation: fadeInDown 1.2s ease;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s ease forwards;
+    }
+
+    .section:nth-child(2) { animation-delay: 0.3s; }
+    .section:nth-child(3) { animation-delay: 0.6s; }
+    .section:nth-child(4) { animation-delay: 0.9s; }
+    .section:nth-child(5) { animation-delay: 1.2s; }
+
+    .section h2 {
+      margin-bottom: 20px;
+      font-size: 2rem;
+      color: #111;
+    }
+
+    .section p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    .pricing {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .pricing h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .pricing p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    .pricing .price-tag {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #00b894;
+      margin-bottom: 20px;
+    }
+
+    .contact {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s ease forwards;
+      animation-delay: 1.5s;
+    }
+
+    .contact h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .contact a, .pricing a {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #00ffcc;
+      color: #111;
+      font-weight: bold;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    .contact a:hover, .pricing a:hover {
+      background: #00ddb3;
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9rem;
+      color: #999;
+      background: #eee;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .section h2 {
+        font-size: 1.5rem;
+      }
+
+      .pricing .price-tag {
+        font-size: 1.5rem;
+      }
+    }
+    .what-i-do {
+  padding: 60px 20px;
+  background: #f8f8f8;
+  text-align: center;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.what-i-do h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.what-i-do p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.what-i-do ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.what-i-do li {
+  font-size: 1rem;
+  margin-bottom: 12px;
+  color: #444;
+}
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1></h1>
+    <p>Freelance Web Developer</p>
+  </header>
+
+  <section class="section">
+    <h2>Advik Maurya</h2>
+    <p>I build clean, fast, and responsive websites for individuals and small businesses. I specialize in HTML, CSS, JavaScript, and modern web frameworks.</p>
+  </section>
+
+  <section class="section">
+<section class="what-i-do">
+    <h2>What I Can Do 💻</h2>
+    <p>I help people build cool stuff on the internet. If you need a slick portfolio, business site, or landing page — I got you.</p>
+    <ul>
+      <li>⚡ Fast & responsive websites</li>
+      <li>📱 Mobile-friendly designs</li>
+      <li>🎨 Custom styling & branding</li>
+      <li>🛠️ Clean, modern HTML/CSS code</li>
+      <li>🚀 Lightweight animations for interactivity</li>
+    </ul>
+  </section>  
+    <h2>Services</h2>
+    <p>✔️ Custom Website Design<br>
+       ✔️ Landing Pages<br>
+       ✔️ Website Maintenance<br>
+       ✔️ Portfolio or Business Sites</p>
+  </section>
+
+  <section class="section pricing">
+    <h2>Pricing</h2>
+    <p>Affordable and reliable websites for everyone</p>
+    <div class="price-tag">Starting from ₹500</div>
+    <a href="https://wa.me/919555968106?text=Hi%2C%20I%20want%20a%20website.%20Let%E2%80%99s%20get%20started!">Contact to Start</a>
+  </section>
+
+  <section class="contact">
+    <h3>Contact Me</h3>
+    <p><a href="tel:+919555968106">+91 9555968106</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Advik_Maurya. All rights reserved.
+  </footer>
+
+</body>
+</html>
